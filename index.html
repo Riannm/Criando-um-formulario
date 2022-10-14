@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="base">
+        <fieldset>
+        <legend>Contato</legend>
+
+        <form action="">
+            <label for="">Nome Completo</label>
+            <input type="text" name="name" id="name" required autofocus
+            placeholder="Digite eu nome">
+        </form>
+
+        <form action="">
+            <label for="">Email</label>
+            <input type="text" name="email" id="email" placeholder="Digite seu email">
+        </form>
+
+        <form action="">
+            <label for="">PIN</label>
+            <input type="password" name="password" id="password" minlength="4" required inputmode="numeric" placeholder="Digite uma senh númerica">
+        </form>
+        
+
+        <form action="">
+            <label for="">Idade</label>
+            <input type="number" name="yearsold" id="yearsold" min="10" max="100" placeholder="Digite sua idade">
+        </form>
+
+        <form action="">
+            <label for="">Fale sobre você</label> <br>
+            <textarea name="talkabout" id="talkabout" cols="31" rows="5"></textarea>
+        </form>
+
+
+        
+
+        <div id="checkprog">
+            <label for="checkprog">Em quais linguagens você programa?</label> <br>
+
+            <label for="html">HTML</label> <input type="checkbox" name="prog1" id="html"> 
+            <label for="css">CSS</label> <input type="checkbox" name="prog2" id="css"> 
+            <label for="js">JavaScript</label> <input type="checkbox" name="prog3" id="js"> 
+            <label for="py">Python</label> <input type="checkbox" name="prog6" id="py"> 
+            <label for="rust">Rust</label> <input type="checkbox" name="prog4" id="rust"> 
+            <label for="cs">C#</label> <input type="checkbox" name="prog5" id="cs"> 
+            <br><br>
+        </div>
+
+        <div id="button"> 
+            <button type="submit">Enviar</button>
+        </div>
+        </div>
+        </fieldset>
+    </div>
+
+            
+
+</body>
+</html>

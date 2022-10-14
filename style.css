@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+/*body {
+    background-image: url(imgs/bg2.jpg);
+    background-size: 100%; 
+} */
+
+fieldset {
+    padding: 25px 22px 15px 15px;
+    width: 415;
+    height: 585px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+div {
+    justify-content: center;
+    display: flex;
+}
+
+input div{ 
+    align-items: center;
+    width: 35px;
+    height: 15px;
+    border-radius: 4px;
+    display: inline;
+}
+
+input{ 
+    display: block;
+}
+
+#checkprog {
+    display: block;
+}
+
+
+
+#button {
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    border: 1px solid ;
+    border-radius: 7px;
+    width: 60px;
+    
+}
+
+#name {
+    width: 155px;
+}
+
+#email {
+    width: 235px;
+}
+
+#password {
+    width: 253px;
+}
+
+#yearsold {
+    width: 236px;
+}
+
+#talkabout {
+    width: 285px;
+}
